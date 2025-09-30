@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int main() 
+{
+char ch,b[100],sen[100],g;
+scanf("%c",&ch);
+scanf("%s",b);
+scanf("%c",&g);
+scanf("%[^\n]s",sen);
+printf("%c\n%s\n%s",ch,b,sen);
+return 0;
+}
